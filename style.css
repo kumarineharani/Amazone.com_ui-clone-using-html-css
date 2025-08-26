@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image:url("amazon_logo.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*address delever to india*/
+.address-1{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left:15px ;
+}
+.address-2{
+    color: white;
+    margin-left: 3-px;
+
+}
+.add-icon{
+    display: flex;
+}
