@@ -37,7 +37,7 @@
 }
 .address-2{
     color: white;
-    margin-left: 3-px;
+    margin-left: 3px;
 
 }
 .add-icon{
@@ -98,4 +98,37 @@ font-weight: 700;
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+/*pannel */
+.pannel{
+    height: 40px;
+    background-color: #222f3b;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.pannel-option p{
+    display: inline;
+    margin-left: 10px;
+}
+.pannel-option{
+
+    width: 70%;
+    display: flex;
+    gap:15px ;
+    font-size: 0.85rem;
+    margin-left:20px ;
+}
+.shop-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.pannel-all {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;   
+    cursor: pointer;
+    margin: 0;         
 }
